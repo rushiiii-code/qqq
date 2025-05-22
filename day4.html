@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rushi Patil's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@4.0.0/dist/full.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body class="bg-base-100 text-base-content font-sans">
+
+  <!-- Navbar -->
+  <header class="navbar bg-primary text-white sticky top-0 z-50 shadow-md">
+    <div class="flex-1">
+      <a href="#" class="text-xl font-bold ml-4">Rushi Patil</a>
+    </div>
+    <nav class="flex-none space-x-4 mr-4">
+      <a href="#welcome" class="hover:underline">Home</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#achievements" class="hover:underline">Achievements</a>
+      <a href="#goals" class="hover:underline">Goals</a>
+      <a href="#personal" class="hover:underline">Personal</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="welcome" class="text-center py-12 bg-gradient-to-r from-primary to-secondary text-white">
+    <h1 class="text-4xl font-extrabold mb-4">Welcome to My World 🌍</h1>
+    <img src="photo.jpg" alt="Rushi Patil" class="w-40 h-40 rounded-full border-4 border-white mx-auto mb-4 shadow-lg" />
+    <div class="w-full max-w-2xl mx-auto px-4">
+      <iframe
+        src="https://www.youtube.com/embed/9iIX4PBplAY"
+        title="Intro Video"
+        class="w-full rounded-xl shadow-xl aspect-video"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <p id="quote" class="italic mt-4 text-lg">"Loading inspirational quote..."</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="p-8 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <p><strong>Name:</strong> Rushi Patil</p>
+      <p><strong>Location:</strong> Palghar, Mumbai</p>
+      <p><strong>Education:</strong> B.Tech in Computer Science</p>
+      <p><strong>Languages:</strong> English, Hindi</p>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="bg-base-200 py-10">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">Achievements</h2>
+      <div id="achievements-list" class="grid md:grid-cols-2 gap-4">
+        <!-- Example Card -->
+        <div class="card bg-white shadow-md">
+          <div class="card-body">
+            <h3 class="card-title">Achievement Title</h3>
+            <p>Description or details about this achievement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future Goals -->
+  <section id="goals" class="p-8 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">Future Goals</h2>
+    <p class="text-lg">I aim to become a full-stack developer, contribute to open-source projects, and use technology to solve real-world problems, especially in education and accessibility.</p>
+  </section>
+
+  <!-- Personal Side -->
+  <section id="personal" class="bg-base-200 py-10">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">Personal Side</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Hobbies:</strong> Chess, coding, cycling, sports</li>
+        <li><strong>Role Models:</strong> Dr. A.P.J. Abdul Kalam, Elon Musk</li>
+        <li><strong>Books:</strong> “Clean Code”, “Atomic Habits”</li>
+        <li><strong>Websites:</strong> dev.to, GitHub, Stack Overflow</li>
+        <li><strong>Startups:</strong> Figma, Notion</li>
+        <li><strong>Volunteering:</strong> Teaching coding to rural students (2023)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-8 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+    <div class="space-y-2 mb-6">
+      <p>📞 <a href="tel:+918007196640" class="text-blue-600 underline">+91 8007196640</a></p>
+      <p>📧 <a href="mailto:Rushi@example.com" class="text-blue-600 underline">Rushi@example.com</a></p>
+      <p>💬 <a href="https://wa.me/918007196640" class="text-green-600 underline">Chat on WhatsApp</a></p>
+      <p>🌐 
+        <a href="https://github.com/karanpatil" target="_blank" class="link link-hover">GitHub</a> | 
+        <a href="https://linkedin.com/in/Rushipatil" target="_blank" class="link link-hover">LinkedIn</a>
+      </p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" class="rounded-lg mb-6 shadow-md" loading="lazy"></iframe>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" class="input input-bordered w-full" required />
+      <input type="email" name="email" placeholder="Email" class="input input-bordered w-full" required />
+      <textarea name="message" placeholder="Message" class="textarea textarea-bordered w-full" required></textarea>
+      <button type="submit" class="btn btn-primary w-full">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer footer-center p-6 bg-neutral text-neutral-content mt-10">
+    <p>&copy; 2025 Rushi Patil. Built with ❤️ using Tailwind CSS + DaisyUI.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
